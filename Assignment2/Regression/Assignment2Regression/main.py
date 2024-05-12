@@ -40,7 +40,7 @@ print("Coefficient of determination: %.2f" % r2_score(y_test, predicted))
 plt.scatter(X_test, y_test, color="black")
 plt.xlabel('PCA applied BMI and Blood Glucose Level')
 plt.ylabel('HbA1c_level')
-plt.plot(X_test, predicted, color="blue", linewidth=3)
+plt.plot(X_test, predicted, color="orange", linewidth=3)
 plt.show()
 
 y_test_array = np.array(y_test)
